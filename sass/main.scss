@@ -1,0 +1,19 @@
+@import "variables";
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    /* should be $blue, as defined in _variables.scss */
+    color: $blue;
+
+    &:active {
+    }
+
+    .branded {
+        /* should be $brand-color as defined in whitelable.json - brandColor */
+        color: $brand-color
+    }
+}
